@@ -1,7 +1,7 @@
 import sys
 
 script_name = sys.argv[0]
-
+sub1 =int(sys.argv[1])
 sub2 = int(sys.argv[2])
 sub3 = int(sys.argv[3])
 sub4 = int(sys.argv[4])
