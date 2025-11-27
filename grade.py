@@ -1,0 +1,26 @@
+import sys
+script_name= sys.argv[0]
+sub1 =sys.argv[1]
+sub2 =sys.argv[2]
+sub3=sys.argv[3]
+sub4=sys.argv[4]
+average=(sub1+sub2+sub3+sub4+sub5)/5
+if average >= 90:
+    grade = "A"
+elif average >= 80:
+    grade = "B"
+elif average >= 70:
+    grade = "C"
+elif average >= 60:
+    grade = "D"
+else:
+    grade = "Fail"
+print("Subject 1:", sub1)
+print("Subject 2:", sub2)
+print("Subject 3:", sub3)
+print("Subject 4:", sub4)
+print("Subject 5:", sub5)
+print("Average Marks:", average)
+print("Grade:", grade)  
+
+
