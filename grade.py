@@ -4,6 +4,7 @@ sub1 =sys.argv[1]
 sub2 =sys.argv[2]
 sub3=sys.argv[3]
 sub4=sys.argv[4]
+sub5=sys.argv[5]
 average=(sub1+sub2+sub3+sub4+sub5)/5
 if average >= 90:
     grade = "A"
